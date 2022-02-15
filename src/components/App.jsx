@@ -1,17 +1,24 @@
+import Profile from './profile/profile';
+import user from '../components/user.json';
+import Section from '../components/section/section';
+import data from '../components/data.json';
+import Statistics from '../components/statistics/staistics';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        textTransform: 'uppercase',
-        color: '#010101',
-      }}
-    >
-      React homework template
+    <div>
+      <Section title="Profile">
+        <Profile
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+      </Section>
+      <Section title="Statistics">
+        <Statistics title="Upload stats" items={data} />
+      </Section>
     </div>
   );
 };

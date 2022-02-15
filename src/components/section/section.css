@@ -1,0 +1,7 @@
+.section {
+  height: 500px;
+  background-color: #ccc;
+}
+.section h2 {
+  text-align: center;
+}
