@@ -1,0 +1,34 @@
+.item-friend {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.3),
+    -2px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.status-true {
+  background-color: rgb(18, 187, 18);
+}
+.status-false {
+  background-color: rgb(247, 88, 88);
+}
+.avatar-friend {
+  border: 1px solid black;
+  width: 70px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.name-friend {
+  font-weight: bold;
+  font-size: large;
+}

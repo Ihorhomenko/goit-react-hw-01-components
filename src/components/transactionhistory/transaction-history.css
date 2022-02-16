@@ -1,0 +1,32 @@
+.transaction-history {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(109, 247, 247);
+}
+
+thead th {
+  padding: 10px;
+  border-right: 1px solid #fff;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+}
+
+tbody td:not(:last-child) {
+  border-right: 1px solid azure;
+}
+
+tbody tr {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: azure;
+}

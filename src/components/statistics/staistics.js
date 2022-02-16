@@ -1,5 +1,6 @@
 import Statistic from './statistic';
 import PropTypes from 'prop-types';
+import './statistics.css';
 
 export default function Statistics({ title, items }) {
   return (
@@ -15,6 +16,6 @@ export default function Statistics({ title, items }) {
   );
 }
 
-// Statistics.PropTypes = {
-//   title: PropTypes.string,
-// };
+Statistics.propTypes = {
+  title: PropTypes.string,
+};
